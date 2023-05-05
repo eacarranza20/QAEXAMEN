@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Venta de Peces</title>
+</head>
+<body>
+<h1>Bienvenido a nuestra tienda de peces</h1>
+
+<nav>
+<ul>
+<li><a href="#">Inicio</a></li>
+<li><a href="#">Peces</a></li>
+<li><a href="#">Carrito</a></li>
+<li><a href="#">Iniciar Sesión</a></li>
+</ul>
+</nav>
+
+<section>
+<h2>Compra de Peces</h2>
+<ul>
+<li>
+<h3>Pececito Azul</h3>
+<img src="pececito-azul.jpg" alt="Pececito Azul">
+<p>Precio: $5.99</p>
+<form action="#" method="post">
+<label for="cantidad-azul">Cantidad:</label>
+<input type="number" id="cantidad-azul" name="cantidad-azul" min="1" max="10" value="1">
+<button type="submit">Agregar al Carrito</button>
+</form>
+</li>
+<li>
+<h3>Pececito Rojo</h3>
+<img src="pececito-rojo.jpg" alt="Pececito Rojo">
+<p>Precio: $6.99</p>
+<form action="#" method="post">
+<label for="cantidad-rojo">Cantidad:</label>
+<input type="number" id="cantidad-rojo" name="cantidad-rojo" min="1" max="10" value="1">
+<button type="submit">Agregar al Carrito</button>
+</form>
+</li>
+<li>
+<h3>Pececito Amarillo</h3>
+<img src="pececito-amarillo.jpg" alt="Pececito Amarillo">
+<p>Precio: $7.99</p>
+<form action="#" method="post">
+<label for="cantidad-amarillo">Cantidad:</label>
+<input type="number" id="cantidad-amarillo" name="cantidad-amarillo" min="1" max="10" value="1">
+<button type="submit">Agregar al Carrito</button>
+</form>
+</li>
+</ul>
+</section>
+
+<section>
+<h2>Iniciar Sesión</h2>
+<form action="#" method="post">
+<label for="username">Usuario:</label>
+<input type="text" id="username" name="username">
+<label for="password">Contraseña:</label>
+<input type="password" id="password" name="password">
+<button type="submit">Iniciar Sesión</button>
+</form>
+</section>
+
+<footer>
+<p>© 2023 Venta de Peces. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
